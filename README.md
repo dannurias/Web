@@ -15,7 +15,15 @@ Componente de la barra de navegación que incluye:
 
 **Archivo**: `Navbar.jsx`
 
-### 2. **ProductList**
+### 2. **Hero Section**
+
+Componente de la barra de navegación que incluye:
+
+- Imagen de inicio y sobre nosotros
+
+**Archivo**: `HeroSection.jsx`
+
+### 3. **ProductList**
 
 Muestra una lista de productos en tarjetas responsivas. Cada producto incluye:
 
@@ -25,13 +33,13 @@ Muestra una lista de productos en tarjetas responsivas. Cada producto incluye:
 
 **Archivo**: `ProductList.jsx`
 
-### 5. **ContactForm**
+### 4. **ContactSection**
 
 Formulario de contacto que permite a los usuarios ponerse en contacto con el equipo para consultas o sugerencias.
 
-**Archivo**: `ContactForm.jsx`
+**Archivo**: `ContactSection.jsx`
 
-### 6. **Footer**
+### 5. **Footer**
 
 Pie de página con enlaces a redes sociales, información adicional, y derechos de autor.
 
