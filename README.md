@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+## Descripción del sitio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+El sitio es un sitio de compras de artículos del anime Jojo's Bizarre Adventure
 
-## Available Scripts
 
-In the project directory, you can run:
+## Componentes del Proyecto
 
-### `npm start`
+El proyecto está organizado en componentes reutilizables, los cuales están diseñados para facilitar la gestión y escalabilidad. A continuación se detalla cada uno de los principales componentes:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. **Navbar**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Componente de la barra de navegación que incluye:
 
-### `npm test`
+- Enlaces a las principales secciones del sitio.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Archivo**: `Navbar.jsx`
 
-### `npm run build`
+### 2. **ProductList**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Muestra una lista de productos en tarjetas responsivas. Cada producto incluye:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Imagen del producto.
+- Título y descripción.
+- Precio y botón de compra.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Archivo**: `ProductList.jsx`
 
-### `npm run eject`
+### 5. **ContactForm**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Formulario de contacto que permite a los usuarios ponerse en contacto con el equipo para consultas o sugerencias.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Archivo**: `ContactForm.jsx`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 6. **Footer**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Pie de página con enlaces a redes sociales, información adicional, y derechos de autor.
 
-## Learn More
+**Archivo**: `Footer.jsx`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Instalación y Ejecución
 
-### Analyzing the Bundle Size
+### Requisitos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Para ejecutar el proyecto en tu entorno local, asegúrate de tener instalado:
 
-### Making a Progressive Web App
+- **Node.js** 
+- **npm**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 1. Clona el repositorio:
 
-### Advanced Configuration
+   ```bash
+   git clone https://github.com/tu-usuario/Web.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ```
+   ### 2. Instala las dependencias necesarias con npm
+```bash
+ npm install
+ ```
 
-### Deployment
+### 3.  Configurar Tailwind CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
 
-### `npm run build` fails to minify
+npm install -D tailwindcss 
+npx tailwindcss init
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+
+https://tailwindcss.com/docs/installation consulta en su documentacion
+
+- Luego, agrega las directivas de Tailwind en el archivo src/index.css
+
+```bash
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+```
+
+### 4. Ejecuta el proyecto
+
+```bash
+
+npm start
+
+```
+
+### Autora : Dania Merari Urias
+
+
+   
